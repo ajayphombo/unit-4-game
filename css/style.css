@@ -1,0 +1,61 @@
+body{
+    background-color:lightblue;
+}
+
+header{
+    margin:auto;
+    padding:15px;
+}
+span{
+    padding: 10px;
+    background-color:darkorange;
+    font-size:25px;
+    color:white;
+}
+section{
+
+    background-color:rgb(243, 200, 145);
+    color:rgb(4, 196, 4);
+    max-width:45%;
+    padding:15px;
+    padding-bottom:40px;
+    margin-bottom:5px;
+}
+
+.box{
+height: 100px;
+margin-bottom:10px;
+
+}
+
+.boxRandom{
+    float: left;
+    width:29%;
+    height:100%;
+    background-color:green;
+    margin-left:15px;
+}
+
+.boxTally{
+    float:left;
+    width: 13%;
+    height:100%;
+    background-color:rgb(52, 226, 197);
+    margin-left:15px;
+
+}
+
+.boxPlacehodler{
+    height:100px;
+    width:100px;
+}
+
+.scoreBox{
+      
+        width:29%;
+        background-color:green;
+        margin-left:15px;
+        margin-top:15px;
+        padding:5px;
+    
+}
