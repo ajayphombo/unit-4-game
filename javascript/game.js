@@ -2,10 +2,6 @@ var wins=0;
 var loses=0;
 var tempNumber=0;
 
-/*
-function retTempValue(){
-    return tempNumber=$("#total").val();
-};*/
 
 function random(max,min){
      return Math.floor(Math.random()*((max-min)+1)+min);
@@ -62,22 +58,13 @@ $("#gem2").on("click",function(){
             winLose();
             });
 
-
-
-
-
             function reset(){
                 tempNumber=0;
                 $("#total").html(tempNumber);
-
-                
-    randomFirst= random(120,19);console.log(randomFirst);
-    $(".boxRandom").text(randomFirst);
-    
-     randomGem1=random(19,0);console.log(randomGem1);
-    
-    randomGem2=random(19,0);console.log(randomGem2);
-    randomGem3=random(19,0);console.log(randomGem3);
-    randomGem4=random(19,0);console.log(randomGem4);
-
+                randomFirst= random(120,19);console.log(randomFirst);
+                    $(".boxRandom").text(randomFirst);
+                randomGem1=random(19,0);console.log(randomGem1);
+                randomGem2=random(19,0);console.log(randomGem2);
+                randomGem3=random(19,0);console.log(randomGem3);
+                randomGem4=random(19,0);console.log(randomGem4);
             };
